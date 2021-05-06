@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BluetoothTesting.BluetoothDataPage"
+              Title="Talking to BLE UART"
+             Visual="Material">
+    
+    <ContentPage.Content>
+        <StackLayout Padding="10"
+                     Orientation="Vertical">
+            <Button x:Name="InitButton"
+                    Margin="10"
+                    Clicked="InitalizeCommandButton_Clicked"
+                    Text="Explicit Init" />
+            <Button x:Name="ScanButton"
+                    Margin="10"
+                    Clicked="SendCommandButton_Clicked"
+                    Text="Send command" />
+            <Entry x:Name="CommandTxt"
+                   Text="ATZ" />
+            <ScrollView VerticalOptions="StartAndExpand">
+                <Label x:Name="Output"
+                       VerticalOptions="CenterAndExpand" 
+                       Text="랄라라라라라라라"/>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

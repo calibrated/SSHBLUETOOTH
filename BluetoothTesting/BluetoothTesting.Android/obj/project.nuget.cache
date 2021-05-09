@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "shASu1khEHwRSNgSPbFXIg2aGX+MsfrgfN48guCyXpg86vhfQmg4uUP//UxdDnZSUOI+lG+CsmMCwBqQH8vqHw==",
+  "dgSpecHash": "NTXIZdskmd0/TzkTKMsP29RpRRlSrtSo8TnVS4wlwnW4qRLrcHjwjl/yLo30zdcPMrVbVODUopdZ6BgcvNJg5g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\유현주\\Desktop\\BluetoothTesting\\BluetoothTesting\\BluetoothTesting.Android\\BluetoothTesting.Android.csproj",
+  "projectFilePath": "D:\\SSHBLUETOOTH\\BluetoothTesting\\BluetoothTesting.Android\\BluetoothTesting.Android.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\유현주\\.nuget\\packages\\plugin.ble\\2.2.0-pre1\\plugin.ble.2.2.0-pre1.nupkg.sha512",
-    "C:\\Users\\유현주\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\dbsrb\\.nuget\\packages\\plugin.ble\\2.2.0-pre1\\plugin.ble.2.2.0-pre1.nupkg.sha512",
+    "C:\\Users\\dbsrb\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.activity\\1.1.0.5\\xamarin.androidx.activity.1.1.0.5.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.annotation\\1.1.0.8\\xamarin.androidx.annotation.1.1.0.8.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.annotation.experimental\\1.0.0.8\\xamarin.androidx.annotation.experimental.1.0.0.8.nupkg.sha512",

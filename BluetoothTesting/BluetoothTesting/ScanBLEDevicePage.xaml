@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BluetoothTesting.ScanBLEDevicePage"
               Title="블루투스 설정"
-             Visual="Material">
+             Visual="Material"
+             NavigationPage.HasNavigationBar="False">
     <Grid>
         <StackLayout Orientation="Vertical">
             <Label Text="아래 목록에서 연결하려는 기기를 선택하세요."

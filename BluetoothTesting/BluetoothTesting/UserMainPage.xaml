@@ -2,7 +2,8 @@
 <FlyoutPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BluetoothTesting.UserMainPage"
-             xmlns:pages="clr-namespace:BluetoothTesting">
+             xmlns:pages="clr-namespace:BluetoothTesting"
+            NavigationPage.HasNavigationBar="False">
   <FlyoutPage.Flyout>
     <pages:UserMainPageFlyout x:Name="FlyoutPage" />
   </FlyoutPage.Flyout>

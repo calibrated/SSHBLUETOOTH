@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using XamarinEssentials = Xamarin.Essentials;
 using Xamarin.Forms.Xaml;
+using BluetoothTesting.Model;
 
 namespace BluetoothTesting
 {
@@ -15,13 +16,15 @@ namespace BluetoothTesting
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ScanBLEDevicePage : ContentPage
     {
-        private readonly IAdapter _bluetoothAdapter;
+       
+        static public DeviceModel _device;
         private List<IDevice> _gattDevices = new List<IDevice>();
         public ScanBLEDevicePage()
         {
             InitializeComponent();
-            _bluetoothAdapter = CrossBluetoothLE.Current.Adapter;
-            _bluetoothAdapter.DeviceDiscovered += (sender, foundBleDevice) =>
+            _device = new DeviceModel();
+            _device._bluetoothAdapter = CrossBluetoothLE.Current.Adapter;
+            _device._bluetoothAdapter.DeviceDiscovered += (sender, foundBleDevice) =>
             {
                 if (foundBleDevice.Device != null && !string.IsNullOrEmpty(foundBleDevice.Device.Name))
                     _gattDevices.Add(foundBleDevice.Device);
@@ -54,10 +57,10 @@ namespace BluetoothTesting
 
             _gattDevices.Clear();
 
-            foreach (var device in _bluetoothAdapter.ConnectedDevices)
+            foreach (var device in _device._bluetoothAdapter.ConnectedDevices)
                 _gattDevices.Add(device);
 
-            await _bluetoothAdapter.StartScanningForDevicesAsync();
+            await _device._bluetoothAdapter.StartScanningForDevicesAsync();
 
             foundBleDevicesListView.ItemsSource = _gattDevices.ToArray();
             IsBusyIndicator.IsVisible = IsBusyIndicator.IsRunning = !(ScanButton.IsEnabled = true);
@@ -66,9 +69,9 @@ namespace BluetoothTesting
         private async void FoundBluetoothDevicesListView_ItemTapped(object sender, ItemTappedEventArgs e)
         {
             IsBusyIndicator.IsVisible = IsBusyIndicator.IsRunning = !(ScanButton.IsEnabled = false);
-            IDevice selectedItem = e.Item as IDevice;
+            _device._bluetoothDevice = e.Item as IDevice;
 
-            if (selectedItem.State == DeviceState.Connected)
+            if (_device._bluetoothDevice.State == DeviceState.Connected)
             {
                 await Navigation.PushAsync(new UserMainPage());
             }
@@ -77,12 +80,12 @@ namespace BluetoothTesting
                 try
                 {
                     var connectParameters = new ConnectParameters(false, true);
-                    await _bluetoothAdapter.ConnectToDeviceAsync(selectedItem, connectParameters);
-                    await Navigation.PushAsync(new BluetoothDataPage(selectedItem));
+                    await _device._bluetoothAdapter.ConnectToDeviceAsync(_device._bluetoothDevice, connectParameters);
+                    await Navigation.PushAsync(new UserMainPage());
                 }
                 catch
                 {
-                    await DisplayAlert("Error connecting", $"Error connecting to BLE device: {selectedItem.Name ?? "N/A"}", "Retry");
+                    await DisplayAlert("Error connecting", $"Error connecting to BLE device: {_device._bluetoothDevice.Name ?? "N/A"}", "Retry");
                 }
             }
 

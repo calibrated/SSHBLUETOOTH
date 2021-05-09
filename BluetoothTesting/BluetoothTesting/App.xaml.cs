@@ -11,7 +11,7 @@ namespace BluetoothTesting
             InitializeComponent();
 
             // await Navigation.PushAsync(new Testing());
-            MainPage = new NavigationPage(new UARTTestPage());
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()

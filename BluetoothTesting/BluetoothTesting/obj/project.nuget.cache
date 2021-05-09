@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "bsgsRFFZMpQqq4XbNz6D6RfabEELYrUac8nxm3WBGwphSIjoSQtrO+l6rV3Ouh0ju61PJR9TZY17yK8xCQfQNQ==",
+  "dgSpecHash": "N66UIXKNJnBcZVKNJqb8RfXtkuHh9nIZJIk9syRwF14aiM868P8adVz+z6fxY5STgBUvTNcbNoUXMoGOkQPBCA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\유현주\\Desktop\\BluetoothTesting\\BluetoothTesting\\BluetoothTesting\\BluetoothTesting.csproj",
+  "projectFilePath": "D:\\SSHBLUETOOTH\\BluetoothTesting\\BluetoothTesting\\BluetoothTesting.csproj",
   "expectedPackageFiles": [
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\유현주\\.nuget\\packages\\plugin.ble\\2.2.0-pre1\\plugin.ble.2.2.0-pre1.nupkg.sha512",
-    "C:\\Users\\유현주\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\dbsrb\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\dbsrb\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\dbsrb\\.nuget\\packages\\plugin.ble\\2.2.0-pre1\\plugin.ble.2.2.0-pre1.nupkg.sha512",
+    "C:\\Users\\dbsrb\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
   ],

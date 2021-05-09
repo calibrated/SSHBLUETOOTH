@@ -2196,18 +2196,18 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\유현주\\.nuget\\packages\\": {},
+    "C:\\Users\\dbsrb\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\유현주\\Desktop\\BluetoothTesting\\BluetoothTesting\\BluetoothTesting.Android\\BluetoothTesting.Android.csproj",
+      "projectUniqueName": "D:\\SSHBLUETOOTH\\BluetoothTesting\\BluetoothTesting.Android\\BluetoothTesting.Android.csproj",
       "projectName": "BluetoothTesting.Android",
-      "projectPath": "C:\\Users\\유현주\\Desktop\\BluetoothTesting\\BluetoothTesting\\BluetoothTesting.Android\\BluetoothTesting.Android.csproj",
-      "packagesPath": "C:\\Users\\유현주\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\유현주\\Desktop\\BluetoothTesting\\BluetoothTesting\\BluetoothTesting.Android\\obj\\",
+      "projectPath": "D:\\SSHBLUETOOTH\\BluetoothTesting\\BluetoothTesting.Android\\BluetoothTesting.Android.csproj",
+      "packagesPath": "C:\\Users\\dbsrb\\.nuget\\packages\\",
+      "outputPath": "D:\\SSHBLUETOOTH\\BluetoothTesting\\BluetoothTesting.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2215,7 +2215,7 @@
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\유현주\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dbsrb\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -2230,8 +2230,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "C:\\Users\\유현주\\Desktop\\BluetoothTesting\\BluetoothTesting\\BluetoothTesting\\BluetoothTesting.csproj": {
-              "projectPath": "C:\\Users\\유현주\\Desktop\\BluetoothTesting\\BluetoothTesting\\BluetoothTesting\\BluetoothTesting.csproj"
+            "D:\\SSHBLUETOOTH\\BluetoothTesting\\BluetoothTesting\\BluetoothTesting.csproj": {
+              "projectPath": "D:\\SSHBLUETOOTH\\BluetoothTesting\\BluetoothTesting\\BluetoothTesting.csproj"
             }
           }
         }

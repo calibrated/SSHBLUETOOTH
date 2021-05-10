@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:control="clr-namespace:Plugin.Segmented.Control;assembly=Plugin.Segmented"
+             x:Class="BluetoothTesting.SSHPage.AlramTypeAndStrength">
+
+    <ContentPage.Resources>
+        <OnPlatform x:Key="PlatformFontName" x:TypeArguments="x:String">
+            <On Platform="UWP" Value="Courier New"></On>
+            <On Platform="Android" Value="Serif"></On>
+            <On Platform="iOS" Value="Helvetica"></On>
+            <On Platform="macOS" Value="Baskerville"></On>
+        </OnPlatform>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White" x:Name="SegmentWithStack">
+            <Label 
+                Text="Welcome to Xamarin.Forms!"
+                HorizontalOptions="CenterAndExpand" />
+            <control:SegmentedControl 
+                x:Name="SegmentedControl" 
+                SelectedSegment="{Binding SelectedSegment, Mode=TwoWay}"
+                TintColor="Blue"
+                SelectedTextColor="White"
+                DisabledColor="Gray"
+                BorderColor="Black"
+                BorderWidth="2.0"
+                FontSize="Small"
+                FontFamily="{StaticResource PlatformFontName}"
+                Margin="8,8,8,8"
+                SegmentSelectedCommand="{Binding SegmentChangedCommand}"
+                OnElementChildrenChanging="OnElementChildrenChanging"
+                ItemsSource="{Binding SegmentStringSource}">
+                <control:SegmentedControl.Children>
+                    <control:SegmentedControlOption Text="상"/>
+                    <control:SegmentedControlOption Text="중"/>
+                    <control:SegmentedControlOption Text="하"/>
+                   
+                </control:SegmentedControl.Children>
+                <!--<control:SegmentedControl.Children>
+                    <control:SegmentedControlOption Text="{Binding ChangeText}"/>
+                    <control:SegmentedControlOption Text="Item 2"/>
+                    <control:SegmentedControlOption Text="Item 3"/>
+                    <control:SegmentedControlOption Text="Item 4"/>
+                </control:SegmentedControl.Children>-->
+            </control:SegmentedControl>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>

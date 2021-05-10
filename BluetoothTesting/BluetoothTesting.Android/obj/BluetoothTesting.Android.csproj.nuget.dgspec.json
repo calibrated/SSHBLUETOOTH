@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SSHBLUETOOTH\\BluetoothTesting\\BluetoothTesting.Android\\BluetoothTesting.Android.csproj": {}
+    "C:\\Users\\yunkyu\\Desktop\\SSHBLUETOOTH\\BluetoothTesting\\BluetoothTesting.Android\\BluetoothTesting.Android.csproj": {}
   },
   "projects": {
-    "D:\\SSHBLUETOOTH\\BluetoothTesting\\BluetoothTesting.Android\\BluetoothTesting.Android.csproj": {
+    "C:\\Users\\yunkyu\\Desktop\\SSHBLUETOOTH\\BluetoothTesting\\BluetoothTesting.Android\\BluetoothTesting.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SSHBLUETOOTH\\BluetoothTesting\\BluetoothTesting.Android\\BluetoothTesting.Android.csproj",
+        "projectUniqueName": "C:\\Users\\yunkyu\\Desktop\\SSHBLUETOOTH\\BluetoothTesting\\BluetoothTesting.Android\\BluetoothTesting.Android.csproj",
         "projectName": "BluetoothTesting.Android",
-        "projectPath": "D:\\SSHBLUETOOTH\\BluetoothTesting\\BluetoothTesting.Android\\BluetoothTesting.Android.csproj",
-        "packagesPath": "C:\\Users\\dbsrb\\.nuget\\packages\\",
-        "outputPath": "D:\\SSHBLUETOOTH\\BluetoothTesting\\BluetoothTesting.Android\\obj\\",
+        "projectPath": "C:\\Users\\yunkyu\\Desktop\\SSHBLUETOOTH\\BluetoothTesting\\BluetoothTesting.Android\\BluetoothTesting.Android.csproj",
+        "packagesPath": "C:\\Users\\yunkyu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yunkyu\\Desktop\\SSHBLUETOOTH\\BluetoothTesting\\BluetoothTesting.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -19,7 +19,7 @@
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\dbsrb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yunkyu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -34,8 +34,8 @@
         "frameworks": {
           "monoandroid11.0": {
             "projectReferences": {
-              "D:\\SSHBLUETOOTH\\BluetoothTesting\\BluetoothTesting\\BluetoothTesting.csproj": {
-                "projectPath": "D:\\SSHBLUETOOTH\\BluetoothTesting\\BluetoothTesting\\BluetoothTesting.csproj"
+              "C:\\Users\\yunkyu\\Desktop\\SSHBLUETOOTH\\BluetoothTesting\\BluetoothTesting\\BluetoothTesting.csproj": {
+                "projectPath": "C:\\Users\\yunkyu\\Desktop\\SSHBLUETOOTH\\BluetoothTesting\\BluetoothTesting\\BluetoothTesting.csproj"
               }
             }
           }
@@ -48,6 +48,10 @@
               "target": "Package",
               "version": "[2.2.0-pre1, )"
             },
+            "Plugin.SegmentedControl.Netstandard": {
+              "target": "Package",
+              "version": "[5.4.5, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.6.1, )"
@@ -55,26 +59,31 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[5.0.0.2012, )"
+            },
+            "Xamarin.Forms.Chips": {
+              "target": "Package",
+              "version": "[1.0.13, )"
             }
           }
         }
       }
     },
-    "D:\\SSHBLUETOOTH\\BluetoothTesting\\BluetoothTesting\\BluetoothTesting.csproj": {
+    "C:\\Users\\yunkyu\\Desktop\\SSHBLUETOOTH\\BluetoothTesting\\BluetoothTesting\\BluetoothTesting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SSHBLUETOOTH\\BluetoothTesting\\BluetoothTesting\\BluetoothTesting.csproj",
+        "projectUniqueName": "C:\\Users\\yunkyu\\Desktop\\SSHBLUETOOTH\\BluetoothTesting\\BluetoothTesting\\BluetoothTesting.csproj",
         "projectName": "BluetoothTesting",
-        "projectPath": "D:\\SSHBLUETOOTH\\BluetoothTesting\\BluetoothTesting\\BluetoothTesting.csproj",
-        "packagesPath": "C:\\Users\\dbsrb\\.nuget\\packages\\",
-        "outputPath": "D:\\SSHBLUETOOTH\\BluetoothTesting\\BluetoothTesting\\obj\\",
+        "projectPath": "C:\\Users\\yunkyu\\Desktop\\SSHBLUETOOTH\\BluetoothTesting\\BluetoothTesting\\BluetoothTesting.csproj",
+        "packagesPath": "C:\\Users\\yunkyu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yunkyu\\Desktop\\SSHBLUETOOTH\\BluetoothTesting\\BluetoothTesting\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\dbsrb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yunkyu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -112,6 +121,10 @@
               "target": "Package",
               "version": "[2.2.0-pre1, )"
             },
+            "Plugin.SegmentedControl.Netstandard": {
+              "target": "Package",
+              "version": "[5.4.5, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.6.1, )"
@@ -119,6 +132,10 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[5.0.0.2012, )"
+            },
+            "Xamarin.Forms.Chips": {
+              "target": "Package",
+              "version": "[1.0.13, )"
             }
           },
           "imports": [
@@ -131,7 +148,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

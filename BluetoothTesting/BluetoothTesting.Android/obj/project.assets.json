@@ -13,6 +13,42 @@
           "lib/MonoAndroid/Plugin.BLE.dll": {}
         }
       },
+      "Plugin.SegmentedControl.Netstandard/5.4.5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Annotation": "1.1.0.2",
+          "Xamarin.AndroidX.AppCompat": "1.2.0",
+          "Xamarin.AndroidX.Arch.Core.Common": "2.1.0.2",
+          "Xamarin.AndroidX.Browser": "1.2.0.2",
+          "Xamarin.AndroidX.CardView": "1.0.0.2",
+          "Xamarin.AndroidX.Core": "1.3.0",
+          "Xamarin.AndroidX.Fragment": "1.2.4.2",
+          "Xamarin.AndroidX.Legacy.Support.Core.UI": "1.0.0.2",
+          "Xamarin.AndroidX.Legacy.Support.Core.Utils": "1.0.0.2",
+          "Xamarin.AndroidX.Legacy.Support.V4": "1.0.0.2",
+          "Xamarin.AndroidX.Lifecycle.Common": "2.2.0.2",
+          "Xamarin.AndroidX.Lifecycle.LiveData": "2.2.0.2",
+          "Xamarin.AndroidX.Lifecycle.Runtime": "2.2.0.2",
+          "Xamarin.AndroidX.Media": "1.1.0.2",
+          "Xamarin.AndroidX.MediaRouter": "1.1.0.2",
+          "Xamarin.AndroidX.Migration": "1.0.6.2",
+          "Xamarin.AndroidX.Palette": "1.0.0.2",
+          "Xamarin.AndroidX.RecyclerView": "1.1.0.2",
+          "Xamarin.AndroidX.Transition": "1.3.1.2",
+          "Xamarin.AndroidX.VectorDrawable": "1.1.0.2",
+          "Xamarin.AndroidX.VectorDrawable.Animated": "1.1.0.2",
+          "Xamarin.Forms": "4.8.0.1269",
+          "Xamarin.Google.Android.Material": "1.0.0.1"
+        },
+        "compile": {
+          "lib/MonoAndroid10/Plugin.Segmented.Control.Droid.dll": {},
+          "lib/MonoAndroid10/Plugin.Segmented.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/Plugin.Segmented.Control.Droid.dll": {},
+          "lib/MonoAndroid10/Plugin.Segmented.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -644,6 +680,27 @@
           "buildTransitive/monoandroid90/Xamarin.AndroidX.Media.targets": {}
         }
       },
+      "Xamarin.AndroidX.MediaRouter/1.1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.AppCompat": "1.1.0.2",
+          "Xamarin.AndroidX.Media": "1.1.0.2",
+          "Xamarin.AndroidX.Palette": "1.0.0.2",
+          "Xamarin.AndroidX.RecyclerView": "1.1.0.2"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid90/Xamarin.AndroidX.MediaRouter.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid90/Xamarin.AndroidX.MediaRouter.dll": {}
+        },
+        "build": {
+          "buildTransitive/monoandroid90/Xamarin.AndroidX.MediaRouter.targets": {}
+        }
+      },
       "Xamarin.AndroidX.Migration/1.0.8": {
         "type": "package",
         "dependencies": {
@@ -673,6 +730,25 @@
         },
         "build": {
           "buildTransitive/monoandroid90/Xamarin.AndroidX.MultiDex.targets": {}
+        }
+      },
+      "Xamarin.AndroidX.Palette/1.0.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Core": "1.2.0.2",
+          "Xamarin.AndroidX.Legacy.Support.Core.Utils": "1.0.0.2"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid90/Xamarin.AndroidX.Palette.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid90/Xamarin.AndroidX.Palette.dll": {}
+        },
+        "build": {
+          "buildTransitive/monoandroid90/Xamarin.AndroidX.Palette.targets": {}
         }
       },
       "Xamarin.AndroidX.Print/1.0.0.6": {
@@ -895,6 +971,24 @@
           "buildTransitive/monoandroid90/Xamarin.AndroidX.ViewPager2.targets": {}
         }
       },
+      "Xamarin.CommunityToolkit/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.1874"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid10.0/Xamarin.CommunityToolkit.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid10.0/Xamarin.CommunityToolkit.dll": {}
+        },
+        "build": {
+          "build/Xamarin.CommunityToolkit.targets": {}
+        }
+      },
       "Xamarin.Essentials/1.6.1": {
         "type": "package",
         "dependencies": {
@@ -936,6 +1030,19 @@
         "build": {
           "buildTransitive/Xamarin.Forms.props": {},
           "buildTransitive/Xamarin.Forms.targets": {}
+        }
+      },
+      "Xamarin.Forms.Chips/1.0.13": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.CommunityToolkit": "1.0.2",
+          "Xamarin.Forms": "5.0.0.1931"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Forms.Chips.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.Chips.dll": {}
         }
       },
       "Xamarin.Google.Android.Material/1.2.1.1": {
@@ -987,8 +1094,10 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Plugin.BLE": "2.2.0-pre1",
+          "Plugin.SegmentedControl.Netstandard": "5.4.5",
           "Xamarin.Essentials": "1.6.1",
-          "Xamarin.Forms": "5.0.0.2012"
+          "Xamarin.Forms": "5.0.0.2012",
+          "Xamarin.Forms.Chips": "1.0.13"
         },
         "compile": {
           "bin/placeholder/BluetoothTesting.dll": {}
@@ -1039,6 +1148,38 @@
         "lib/xamarinmac20/Plugin.BLE.macOS.xml",
         "plugin.ble.2.2.0-pre1.nupkg.sha512",
         "plugin.ble.nuspec"
+      ]
+    },
+    "Plugin.SegmentedControl.Netstandard/5.4.5": {
+      "sha512": "68P/FNSKWa/jnQngija+9gr8zX4yuxwWw+5YOediZkBmv7cRcXcemmF74B0BKjSzbuLu1Eb/C2GfKB4NksXI2w==",
+      "type": "package",
+      "path": "plugin.segmentedcontrol.netstandard/5.4.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/1iveowl-logo.png",
+        "lib/MonoAndroid10/Plugin.Segmented.Control.Droid.dll",
+        "lib/MonoAndroid10/Plugin.Segmented.Control.Droid.pdb",
+        "lib/MonoAndroid10/Plugin.Segmented.dll",
+        "lib/MonoAndroid10/Plugin.Segmented.pdb",
+        "lib/Xamarin.Mac20/Plugin.Segmented.dll",
+        "lib/Xamarin.Mac20/Plugin.Segmented.pdb",
+        "lib/Xamarin.iOS10/Plugin.Segmented.Control.iOS.dll",
+        "lib/Xamarin.iOS10/Plugin.Segmented.Control.iOS.dll.mdb",
+        "lib/Xamarin.iOS10/Plugin.Segmented.Control.iOS.pdb",
+        "lib/Xamarin.iOS10/Plugin.Segmented.dll",
+        "lib/Xamarin.iOS10/Plugin.Segmented.pdb",
+        "lib/netstandard2.0/Plugin.Segmented.deps.json",
+        "lib/netstandard2.0/Plugin.Segmented.dll",
+        "lib/netstandard2.0/Plugin.Segmented.pdb",
+        "lib/uap10.0/Plugin.Segmented.Control.UWP.dll",
+        "lib/uap10.0/Plugin.Segmented.Control.UWP.pdb",
+        "lib/uap10.0/Plugin.Segmented.Control.UWP.pri",
+        "lib/uap10.0/Plugin.Segmented.Control.UWP/Plugin.Segmented.Control.UWP.xr.xml",
+        "lib/uap10.0/Plugin.Segmented.dll",
+        "lib/uap10.0/Plugin.Segmented.pdb",
+        "plugin.segmentedcontrol.netstandard.5.4.5.nupkg.sha512",
+        "plugin.segmentedcontrol.netstandard.nuspec"
       ]
     },
     "System.Numerics.Vectors/4.5.0": {
@@ -1623,6 +1764,24 @@
         "xamarin.androidx.media.nuspec"
       ]
     },
+    "Xamarin.AndroidX.MediaRouter/1.1.0.2": {
+      "sha512": "aNmZPaPeu7HcXGcW3Q0KXxZL71Ihz9BYm8p15DLwgVv3/QOIw1CLvNlzGhAjtnEurSNXjIX8ZzGjtjyydLC/7Q==",
+      "type": "package",
+      "path": "xamarin.androidx.mediarouter/1.1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "aar/androidx.mediarouter.mediarouter.aar",
+        "build/monoandroid90/Xamarin.AndroidX.MediaRouter.targets",
+        "buildTransitive/monoandroid90/Xamarin.AndroidX.MediaRouter.targets",
+        "lib/monoandroid90/Xamarin.AndroidX.MediaRouter.dll",
+        "lib/monoandroid90/Xamarin.AndroidX.MediaRouter.pdb",
+        "proguard/proguard.txt",
+        "xamarin.androidx.mediarouter.1.1.0.2.nupkg.sha512",
+        "xamarin.androidx.mediarouter.nuspec"
+      ]
+    },
     "Xamarin.AndroidX.Migration/1.0.8": {
       "sha512": "bmcoaZ0Iw4ye2VpnRl6CObw3qKZT+6RzkyHjJVaeeNOupvFGyirWUq79HdVvSWyW6xSrqTBlprmUxtQkUR4kpg==",
       "type": "package",
@@ -1685,6 +1844,23 @@
         "lib/monoandroid90/Xamarin.AndroidX.MultiDex.pdb",
         "xamarin.androidx.multidex.2.0.1.5.nupkg.sha512",
         "xamarin.androidx.multidex.nuspec"
+      ]
+    },
+    "Xamarin.AndroidX.Palette/1.0.0.2": {
+      "sha512": "vSP0jq7qgXdlVGxh1ZaCRxAQgGmglZJ7KWR9x2D6hC2cH4qQb6dfvAUuOENkW/ZGkZ8g/xUfDlEaQmnurM5+eA==",
+      "type": "package",
+      "path": "xamarin.androidx.palette/1.0.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "aar/androidx.palette.palette.aar",
+        "build/monoandroid90/Xamarin.AndroidX.Palette.targets",
+        "buildTransitive/monoandroid90/Xamarin.AndroidX.Palette.targets",
+        "lib/monoandroid90/Xamarin.AndroidX.Palette.dll",
+        "lib/monoandroid90/Xamarin.AndroidX.Palette.pdb",
+        "xamarin.androidx.palette.1.0.0.2.nupkg.sha512",
+        "xamarin.androidx.palette.nuspec"
       ]
     },
     "Xamarin.AndroidX.Print/1.0.0.6": {
@@ -1877,6 +2053,35 @@
         "lib/monoandroid90/Xamarin.AndroidX.ViewPager2.pdb",
         "xamarin.androidx.viewpager2.1.0.0.8.nupkg.sha512",
         "xamarin.androidx.viewpager2.nuspec"
+      ]
+    },
+    "Xamarin.CommunityToolkit/1.0.2": {
+      "sha512": "P1vwT40rpeY66M1kpJyfO/yYuverdIuamN0w8FHgT4x+mcDf0G4tspCztMMYle1BSeisrtvOKToQMLDYfBz9uQ==",
+      "type": "package",
+      "path": "xamarin.communitytoolkit/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "build/PreserveXamarinCommunityToolkit.cs",
+        "build/Xamarin.CommunityToolkit.targets",
+        "icon.png",
+        "lib/monoandroid10.0/Xamarin.CommunityToolkit.dll",
+        "lib/net471/Xamarin.CommunityToolkit.dll",
+        "lib/net472/Xamarin.CommunityToolkit.dll",
+        "lib/netcoreapp3.1/Xamarin.CommunityToolkit.dll",
+        "lib/netstandard1.0/Xamarin.CommunityToolkit.dll",
+        "lib/netstandard2.0/Xamarin.CommunityToolkit.dll",
+        "lib/netstandard2.1/Xamarin.CommunityToolkit.dll",
+        "lib/tizen40/Xamarin.CommunityToolkit.dll",
+        "lib/uap10.0.17763/Xamarin.CommunityToolkit.dll",
+        "lib/uap10.0.17763/Xamarin.CommunityToolkit.pri",
+        "lib/xamarinios10/Xamarin.CommunityToolkit.dll",
+        "lib/xamarinmac20/Xamarin.CommunityToolkit.dll",
+        "lib/xamarintvos10/Xamarin.CommunityToolkit.dll",
+        "lib/xamarinwatchos10/Xamarin.CommunityToolkit.dll",
+        "xamarin.communitytoolkit.1.0.2.nupkg.sha512",
+        "xamarin.communitytoolkit.nuspec"
       ]
     },
     "Xamarin.Essentials/1.6.1": {
@@ -2146,6 +2351,18 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "Xamarin.Forms.Chips/1.0.13": {
+      "sha512": "T72W355Wdrfyx6GM8DRXAt3RLIrLlwfXjkw/qSk81lq5JlYEiapb/5TWpzMUoE5dP6v3R6QraRO0Hp++pVnEPA==",
+      "type": "package",
+      "path": "xamarin.forms.chips/1.0.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Xamarin.Forms.Chips.dll",
+        "xamarin.forms.chips.1.0.13.nupkg.sha512",
+        "xamarin.forms.chips.nuspec"
+      ]
+    },
     "Xamarin.Google.Android.Material/1.2.1.1": {
       "sha512": "kxgTX/apGJyizjwSgPn6VFiYtJ7ym/hMr7VVJI7kBCfexbWLij4pQlrxRB7Spsrzy+he+mUZO0wN/iFrsVlEYQ==",
       "type": "package",
@@ -2191,23 +2408,25 @@
     "MonoAndroid,Version=v11.0": [
       "BluetoothTesting >= 1.0.0",
       "Plugin.BLE >= 2.2.0-pre1",
+      "Plugin.SegmentedControl.Netstandard >= 5.4.5",
       "Xamarin.Essentials >= 1.6.1",
-      "Xamarin.Forms >= 5.0.0.2012"
+      "Xamarin.Forms >= 5.0.0.2012",
+      "Xamarin.Forms.Chips >= 1.0.13"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dbsrb\\.nuget\\packages\\": {},
+    "C:\\Users\\yunkyu\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SSHBLUETOOTH\\BluetoothTesting\\BluetoothTesting.Android\\BluetoothTesting.Android.csproj",
+      "projectUniqueName": "C:\\Users\\yunkyu\\Desktop\\SSHBLUETOOTH\\BluetoothTesting\\BluetoothTesting.Android\\BluetoothTesting.Android.csproj",
       "projectName": "BluetoothTesting.Android",
-      "projectPath": "D:\\SSHBLUETOOTH\\BluetoothTesting\\BluetoothTesting.Android\\BluetoothTesting.Android.csproj",
-      "packagesPath": "C:\\Users\\dbsrb\\.nuget\\packages\\",
-      "outputPath": "D:\\SSHBLUETOOTH\\BluetoothTesting\\BluetoothTesting.Android\\obj\\",
+      "projectPath": "C:\\Users\\yunkyu\\Desktop\\SSHBLUETOOTH\\BluetoothTesting\\BluetoothTesting.Android\\BluetoothTesting.Android.csproj",
+      "packagesPath": "C:\\Users\\yunkyu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\yunkyu\\Desktop\\SSHBLUETOOTH\\BluetoothTesting\\BluetoothTesting.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2215,7 +2434,7 @@
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\dbsrb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\yunkyu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -2230,8 +2449,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "D:\\SSHBLUETOOTH\\BluetoothTesting\\BluetoothTesting\\BluetoothTesting.csproj": {
-              "projectPath": "D:\\SSHBLUETOOTH\\BluetoothTesting\\BluetoothTesting\\BluetoothTesting.csproj"
+            "C:\\Users\\yunkyu\\Desktop\\SSHBLUETOOTH\\BluetoothTesting\\BluetoothTesting\\BluetoothTesting.csproj": {
+              "projectPath": "C:\\Users\\yunkyu\\Desktop\\SSHBLUETOOTH\\BluetoothTesting\\BluetoothTesting\\BluetoothTesting.csproj"
             }
           }
         }
@@ -2244,6 +2463,10 @@
             "target": "Package",
             "version": "[2.2.0-pre1, )"
           },
+          "Plugin.SegmentedControl.Netstandard": {
+            "target": "Package",
+            "version": "[5.4.5, )"
+          },
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.6.1, )"
@@ -2251,6 +2474,10 @@
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[5.0.0.2012, )"
+          },
+          "Xamarin.Forms.Chips": {
+            "target": "Package",
+            "version": "[1.0.13, )"
           }
         }
       }

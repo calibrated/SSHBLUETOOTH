@@ -87,3 +87,9 @@ androidx.asynclayoutinflater.asynclayoutinflater.aar
 androidx.legacy.legacy-support-core-ui.aar
 androidx.legacy.legacy-support-v4.aar
 androidx.browser.browser.aar
+Xamarin.CommunityToolkit.dll
+Plugin.Segmented.Control.Droid.dll
+Xamarin.AndroidX.MediaRouter.dll
+Xamarin.AndroidX.Palette.dll
+androidx.palette.palette.aar
+androidx.mediarouter.mediarouter.aar

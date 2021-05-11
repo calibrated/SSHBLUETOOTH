@@ -57,7 +57,7 @@ namespace BluetoothTesting
                 if (IsFirstRun)
                 {
                     //블루투스 검색페이지 이동
-                    Navigation.PushAsync(new ScanBLEDevicePage());
+                    //Navigation.PushAsync(new ScanBLEDevicePage());
                 }
                 else
                 {

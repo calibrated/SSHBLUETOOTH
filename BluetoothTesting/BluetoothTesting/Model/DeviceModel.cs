@@ -11,9 +11,26 @@ namespace BluetoothTesting.Model
 {
     public class DeviceModel
     {
+
+        private static DeviceModel instance;
+        
         public IAdapter _bluetoothAdapter;
         public IDevice _bluetoothDevice;
 
+        DeviceModel()
+        {
+            _bluetoothAdapter = CrossBluetoothLE.Current.Adapter;
 
+        }
+
+        public static DeviceModel GetInstance()
+        {
+            if (instance == null)
+            {
+                instance = new DeviceModel();       
+            }
+
+            return instance;
+        }
     }
 }

@@ -12,7 +12,7 @@ namespace BluetoothTesting
             InitializeComponent();
 
             // await Navigation.PushAsync(new Testing());
-            MainPage = new NavigationPage(new BaseLineTest());
+            MainPage = new NavigationPage(new Entrance());
         }
 
         protected override void OnStart()
@@ -26,6 +26,7 @@ namespace BluetoothTesting
         protected override void OnResume()
         {
         }
+       
 
         
     }

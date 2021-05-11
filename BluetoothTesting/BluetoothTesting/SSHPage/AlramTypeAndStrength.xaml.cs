@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Plugin.Segmented.Event;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,9 +18,16 @@ namespace BluetoothTesting.SSHPage
             InitializeComponent();
         }
 
-        public void OnElementChildrenChanging(object sender, EventArgs e) { 
+       
+        public void OnElementChildrenChanging(object sender, EventArgs e) {
+          
         
-        
+        }
+
+        public void StartButtonClicked(object sender, EventArgs e)
+        {
+
+            Navigation.PushAsync(new BaseLineTestStart());
         }
     }
 }

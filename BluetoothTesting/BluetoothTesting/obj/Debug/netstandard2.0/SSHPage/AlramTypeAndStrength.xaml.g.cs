@@ -20,13 +20,25 @@ namespace BluetoothTesting.SSHPage {
         private global::Xamarin.Forms.StackLayout SegmentWithStack;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Plugin.Segmented.Control.SegmentedControl SegmentedControl;
+        private global::Plugin.Segmented.Control.SegmentedControl StrengthSegmente;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.Label typelabel;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Plugin.Segmented.Control.SegmentedControl TypeSegmente;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.Button StartButton;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(AlramTypeAndStrength));
             SegmentWithStack = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "SegmentWithStack");
-            SegmentedControl = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Plugin.Segmented.Control.SegmentedControl>(this, "SegmentedControl");
+            StrengthSegmente = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Plugin.Segmented.Control.SegmentedControl>(this, "StrengthSegmente");
+            typelabel = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "typelabel");
+            TypeSegmente = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Plugin.Segmented.Control.SegmentedControl>(this, "TypeSegmente");
+            StartButton = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "StartButton");
         }
     }
 }

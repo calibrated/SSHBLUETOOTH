@@ -68,7 +68,6 @@ C:\Users\yunkyu\Desktop\SSHBLUETOOTH\BluetoothTesting\BluetoothTesting\obj\Debug
 C:\Users\yunkyu\Desktop\SSHBLUETOOTH\BluetoothTesting\BluetoothTesting\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\yunkyu\Desktop\SSHBLUETOOTH\BluetoothTesting\BluetoothTesting\obj\Debug\netstandard2.0\BluetoothDataPage.xaml.g.cs
 C:\Users\yunkyu\Desktop\SSHBLUETOOTH\BluetoothTesting\BluetoothTesting\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
-C:\Users\yunkyu\Desktop\SSHBLUETOOTH\BluetoothTesting\BluetoothTesting\obj\Debug\netstandard2.0\ScanBLEDevicePage.xaml.g.cs
 C:\Users\yunkyu\Desktop\SSHBLUETOOTH\BluetoothTesting\BluetoothTesting\obj\Debug\netstandard2.0\UARTTestPage.xaml.g.cs
 C:\Users\yunkyu\Desktop\SSHBLUETOOTH\BluetoothTesting\BluetoothTesting\obj\Debug\netstandard2.0\UserMainPage.xaml.g.cs
 C:\Users\yunkyu\Desktop\SSHBLUETOOTH\BluetoothTesting\BluetoothTesting\obj\Debug\netstandard2.0\UserMainPageDetail.xaml.g.cs
@@ -82,3 +81,6 @@ C:\Users\yunkyu\Desktop\SSHBLUETOOTH\BluetoothTesting\BluetoothTesting\obj\Debug
 C:\Users\yunkyu\Desktop\SSHBLUETOOTH\BluetoothTesting\BluetoothTesting\obj\Debug\netstandard2.0\BluetoothTesting.pdb
 C:\Users\yunkyu\Desktop\SSHBLUETOOTH\BluetoothTesting\BluetoothTesting\obj\Debug\netstandard2.0\SSHPage\AlramTypeAndStrength.xaml.g.cs
 C:\Users\yunkyu\Desktop\SSHBLUETOOTH\BluetoothTesting\BluetoothTesting\obj\Debug\netstandard2.0\SSHPage\BaseLineTest.xaml.g.cs
+C:\Users\yunkyu\Desktop\SSHBLUETOOTH\BluetoothTesting\BluetoothTesting\obj\Debug\netstandard2.0\SSHPage\BaseLineTestStart.xaml.g.cs
+C:\Users\yunkyu\Desktop\SSHBLUETOOTH\BluetoothTesting\BluetoothTesting\obj\Debug\netstandard2.0\SSHPage\BLEScan.xaml.g.cs
+C:\Users\yunkyu\Desktop\SSHBLUETOOTH\BluetoothTesting\BluetoothTesting\obj\Debug\netstandard2.0\SSHPage\Entrance.xaml.g.cs

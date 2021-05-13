@@ -7,7 +7,21 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BluetoothTesting.Android", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BluetoothTesting.iOS", "BluetoothTesting\BluetoothTesting.iOS\BluetoothTesting.iOS.csproj", "{203204A1-7F08-49FF-86C3-254E33AC6FD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BluetoothTesting", "BluetoothTesting\BluetoothTesting\BluetoothTesting.csproj", "{A136B55F-2794-4A50-90BD-16771B1FA0B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BluetoothTesting", "BluetoothTesting\BluetoothTesting\BluetoothTesting.csproj", "{A136B55F-2794-4A50-90BD-16771B1FA0B1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plugin.BLE", "..\xamarin-bluetooth-le-master\Source\Plugin.BLE\Plugin.BLE.csproj", "{CEA14A40-74F5-444F-8AEB-B109C1E84CA1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plugin.BLE.Abstractions", "..\xamarin-bluetooth-le-master\Source\Plugin.BLE.Abstractions\Plugin.BLE.Abstractions.csproj", "{5639C3EE-D588-4187-BC5B-9DCEBF42BFEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6DE76ACC-7C39-4FC2-9787-F71053C9CD1E}"
+	ProjectSection(SolutionItems) = preProject
+		..\xamarin-bluetooth-le-master\Source\BLE.Server.Droid\GettingStarted.Xamarin = ..\xamarin-bluetooth-le-master\Source\BLE.Server.Droid\GettingStarted.Xamarin
+		..\xamarin-bluetooth-le-master\Source\MvvmCross.Plugins.BLE\MvvmCross.Plugins.BLE.csproj = ..\xamarin-bluetooth-le-master\Source\MvvmCross.Plugins.BLE\MvvmCross.Plugins.BLE.csproj
+		..\xamarin-bluetooth-le-master\Source\MvvmCross.Plugins.BLE.Droid\MvvmCross.Plugins.BLE.Droid.csproj = ..\xamarin-bluetooth-le-master\Source\MvvmCross.Plugins.BLE.Droid\MvvmCross.Plugins.BLE.Droid.csproj
+		..\xamarin-bluetooth-le-master\Source\MvvmCross.Plugins.BLE.iOS\MvvmCross.Plugins.BLE.iOS.csproj = ..\xamarin-bluetooth-le-master\Source\MvvmCross.Plugins.BLE.iOS\MvvmCross.Plugins.BLE.iOS.csproj
+		..\xamarin-bluetooth-le-master\Source\Plugin.BLE.Android\Plugin.BLE.Android.csproj = ..\xamarin-bluetooth-le-master\Source\Plugin.BLE.Android\Plugin.BLE.Android.csproj
+		..\xamarin-bluetooth-le-master\Source\Plugin.BLE.iOS\Plugin.BLE.iOS.csproj = ..\xamarin-bluetooth-le-master\Source\Plugin.BLE.iOS\Plugin.BLE.iOS.csproj
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +87,30 @@ Global
 		{A136B55F-2794-4A50-90BD-16771B1FA0B1}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{A136B55F-2794-4A50-90BD-16771B1FA0B1}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{A136B55F-2794-4A50-90BD-16771B1FA0B1}.Release|iPhoneSimulator.Deploy.0 = Release|Any CPU
+		{CEA14A40-74F5-444F-8AEB-B109C1E84CA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEA14A40-74F5-444F-8AEB-B109C1E84CA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEA14A40-74F5-444F-8AEB-B109C1E84CA1}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{CEA14A40-74F5-444F-8AEB-B109C1E84CA1}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{CEA14A40-74F5-444F-8AEB-B109C1E84CA1}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{CEA14A40-74F5-444F-8AEB-B109C1E84CA1}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{CEA14A40-74F5-444F-8AEB-B109C1E84CA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEA14A40-74F5-444F-8AEB-B109C1E84CA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEA14A40-74F5-444F-8AEB-B109C1E84CA1}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{CEA14A40-74F5-444F-8AEB-B109C1E84CA1}.Release|iPhone.Build.0 = Release|Any CPU
+		{CEA14A40-74F5-444F-8AEB-B109C1E84CA1}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{CEA14A40-74F5-444F-8AEB-B109C1E84CA1}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{5639C3EE-D588-4187-BC5B-9DCEBF42BFEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5639C3EE-D588-4187-BC5B-9DCEBF42BFEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5639C3EE-D588-4187-BC5B-9DCEBF42BFEE}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{5639C3EE-D588-4187-BC5B-9DCEBF42BFEE}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{5639C3EE-D588-4187-BC5B-9DCEBF42BFEE}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{5639C3EE-D588-4187-BC5B-9DCEBF42BFEE}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{5639C3EE-D588-4187-BC5B-9DCEBF42BFEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5639C3EE-D588-4187-BC5B-9DCEBF42BFEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5639C3EE-D588-4187-BC5B-9DCEBF42BFEE}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{5639C3EE-D588-4187-BC5B-9DCEBF42BFEE}.Release|iPhone.Build.0 = Release|Any CPU
+		{5639C3EE-D588-4187-BC5B-9DCEBF42BFEE}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{5639C3EE-D588-4187-BC5B-9DCEBF42BFEE}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -130,9 +130,6 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Plugin.BLE">
-      <Version>2.2.0-pre1</Version>
-    </PackageReference>
     <PackageReference Include="Plugin.SegmentedControl.Netstandard">
       <Version>5.4.5</Version>
     </PackageReference>
@@ -144,6 +141,14 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
+    <ProjectReference Include="..\..\..\xamarin-bluetooth-le-master\Source\Plugin.BLE.Abstractions\Plugin.BLE.Abstractions.csproj">
+      <Project>{5639c3ee-d588-4187-bc5b-9dcebf42bfee}</Project>
+      <Name>Plugin.BLE.Abstractions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\xamarin-bluetooth-le-master\Source\Plugin.BLE\Plugin.BLE.csproj">
+      <Project>{cea14a40-74f5-444f-8aeb-b109c1e84ca1}</Project>
+      <Name>Plugin.BLE</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BluetoothTesting\BluetoothTesting.csproj">
       <Project>{9B10D450-5148-476A-BA83-66F5D1886A7A}</Project>
       <Name>BluetoothTesting</Name>

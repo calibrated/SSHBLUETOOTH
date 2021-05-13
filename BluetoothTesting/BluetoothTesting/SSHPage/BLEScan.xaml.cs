@@ -13,6 +13,9 @@ using Plugin.BLE.Abstractions.Contracts;
 using Plugin.BLE.Abstractions.Exceptions;
 using BluetoothTesting.Model;
 
+
+
+
 namespace BluetoothTesting.SSHPage
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
@@ -85,11 +88,13 @@ namespace BluetoothTesting.SSHPage
 
                 await adapter.ConnectToDeviceAsync(device);
 
+
+
                 await DisplayAlert("연결", "상태:" + device.State, "OK");
 
-                var service = await device.GetServiceAsync(GattIdentifiers.UartGattServiceId);
-                var receiveCharacteristic = await service.GetCharacteristicAsync(GattIdentifiers.UartGattCharacteristicReceiveId);
-                await receiveCharacteristic.StopUpdatesAsync();
+                //var service = await device.GetServiceAsync(GattIdentifiers.UartGattServiceId);
+                //var receiveCharacteristic = await service.GetCharacteristicAsync(GattIdentifiers.UartGattCharacteristicReceiveId);
+                //await receiveCharacteristic.StopUpdatesAsync();
 
                 //await CrossBluetoothLE.Current.Adapter.DisconnectDeviceAsync(device);
 

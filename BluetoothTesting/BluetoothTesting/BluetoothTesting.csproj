@@ -19,11 +19,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Plugin.BLE" Version="2.2.0-pre1" />
     <PackageReference Include="Plugin.SegmentedControl.Netstandard" Version="5.4.5" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
     <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
     <PackageReference Include="Xamarin.Forms.Chips" Version="1.0.13" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\xamarin-bluetooth-le-master\Source\Plugin.BLE.Abstractions\Plugin.BLE.Abstractions.csproj" />
+    <ProjectReference Include="..\..\..\xamarin-bluetooth-le-master\Source\Plugin.BLE\Plugin.BLE.csproj" />
   </ItemGroup>
 
   <ItemGroup>

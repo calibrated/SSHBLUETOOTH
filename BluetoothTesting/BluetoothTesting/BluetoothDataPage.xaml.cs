@@ -5,6 +5,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using XamarinEssentials = Xamarin.Essentials;
 
+
 using Plugin.BLE;
 using Plugin.BLE.Abstractions;
 using System.Collections.Generic;

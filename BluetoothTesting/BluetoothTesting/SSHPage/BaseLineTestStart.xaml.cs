@@ -10,6 +10,7 @@ using Xamarin.Forms.Xaml;
 using Xamarin.Essentials;
 using BluetoothTesting.Model;
 
+
 namespace BluetoothTesting.SSHPage
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]

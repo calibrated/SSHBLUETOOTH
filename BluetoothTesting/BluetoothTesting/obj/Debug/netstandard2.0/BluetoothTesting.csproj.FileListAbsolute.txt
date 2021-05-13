@@ -84,3 +84,8 @@ C:\Users\yunkyu\Desktop\SSHBLUETOOTH\BluetoothTesting\BluetoothTesting\obj\Debug
 C:\Users\yunkyu\Desktop\SSHBLUETOOTH\BluetoothTesting\BluetoothTesting\obj\Debug\netstandard2.0\SSHPage\BaseLineTestStart.xaml.g.cs
 C:\Users\yunkyu\Desktop\SSHBLUETOOTH\BluetoothTesting\BluetoothTesting\obj\Debug\netstandard2.0\SSHPage\BLEScan.xaml.g.cs
 C:\Users\yunkyu\Desktop\SSHBLUETOOTH\BluetoothTesting\BluetoothTesting\obj\Debug\netstandard2.0\SSHPage\Entrance.xaml.g.cs
+C:\Users\yunkyu\Desktop\SSHBLUETOOTH\BluetoothTesting\BluetoothTesting\bin\Debug\netstandard2.0\Plugin.BLE.Abstractions.dll
+C:\Users\yunkyu\Desktop\SSHBLUETOOTH\BluetoothTesting\BluetoothTesting\bin\Debug\netstandard2.0\Plugin.BLE.dll
+C:\Users\yunkyu\Desktop\SSHBLUETOOTH\BluetoothTesting\BluetoothTesting\bin\Debug\netstandard2.0\Plugin.BLE.Abstractions.pdb
+C:\Users\yunkyu\Desktop\SSHBLUETOOTH\BluetoothTesting\BluetoothTesting\bin\Debug\netstandard2.0\Plugin.BLE.pdb
+C:\Users\yunkyu\Desktop\SSHBLUETOOTH\BluetoothTesting\BluetoothTesting\obj\Debug\netstandard2.0\BluetoothTesting.csproj.CopyComplete

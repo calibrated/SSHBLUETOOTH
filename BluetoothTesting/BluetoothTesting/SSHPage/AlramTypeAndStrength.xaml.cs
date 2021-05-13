@@ -27,6 +27,9 @@ namespace BluetoothTesting.SSHPage
         public void StartButtonClicked(object sender, EventArgs e)
         {
 
+
+
+            var tt = TypeSegmente.SelectedSegment;
             Navigation.PushAsync(new BaseLineTestStart());
         }
     }

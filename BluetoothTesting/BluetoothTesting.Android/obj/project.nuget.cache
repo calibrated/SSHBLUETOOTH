@@ -1,10 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "gI3PfkdH+K+LFPKle9iw+UOKkCTFq7sKs82m8cpDwYwiM2vLUUp4YN4Q6b+ry9mWf8xUGKGhQ0uw+B9R2jFGtw==",
+  "dgSpecHash": "RK6MBJ7sKOlxjlWIb9NwjMa4u7KXTBss8Iez+rEGHxAxH7wkZCkcVF3YzE1ZYCfDEWWHH9n+SKQAEy/y2IrD9w==",
   "success": true,
   "projectFilePath": "C:\\Users\\yunkyu\\Desktop\\SSHBLUETOOTH\\BluetoothTesting\\BluetoothTesting.Android\\BluetoothTesting.Android.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\yunkyu\\.nuget\\packages\\plugin.ble\\2.2.0-pre1\\plugin.ble.2.2.0-pre1.nupkg.sha512",
     "C:\\Users\\yunkyu\\.nuget\\packages\\plugin.segmentedcontrol.netstandard\\5.4.5\\plugin.segmentedcontrol.netstandard.5.4.5.nupkg.sha512",
     "C:\\Users\\yunkyu\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.activity\\1.1.0.5\\xamarin.androidx.activity.1.1.0.5.nupkg.sha512",

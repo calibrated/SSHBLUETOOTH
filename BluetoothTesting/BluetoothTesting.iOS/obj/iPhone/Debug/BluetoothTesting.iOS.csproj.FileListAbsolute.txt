@@ -103,7 +103,6 @@ C:\Users\yunkyu\Desktop\SSHBLUETOOTH\BluetoothTesting\BluetoothTesting.iOS\obj\i
 C:\Users\yunkyu\Desktop\SSHBLUETOOTH\BluetoothTesting\BluetoothTesting.iOS\obj\iPhone\Debug\device-builds\iphone9.4-14.4.2\CopyFilesToMac\Xamarin.Forms.Chips.dll.ReferenceCopyLocalPaths.stamp
 C:\Users\yunkyu\Desktop\SSHBLUETOOTH\BluetoothTesting\BluetoothTesting.iOS\obj\iPhone\Debug\device-builds\iphone9.4-14.4.2\CopyFilesToMac\BluetoothTesting.dll.ReferenceCopyLocalPaths.stamp
 C:\Users\yunkyu\Desktop\SSHBLUETOOTH\BluetoothTesting\BluetoothTesting.iOS\obj\iPhone\Debug\device-builds\iphone9.4-14.4.2\CopyFilesToMac\BluetoothTesting.pdb.ReferenceCopyLocalPaths.stamp
-C:\Users\yunkyu\Desktop\SSHBLUETOOTH\BluetoothTesting\BluetoothTesting.iOS\obj\iPhone\Debug\device-builds\iphone9.4-14.4.2\CopyFilesToMac\Plugin.BLE.dll.mdb.ReferenceCopyLocalPaths.stamp
 C:\Users\yunkyu\Desktop\SSHBLUETOOTH\BluetoothTesting\BluetoothTesting.iOS\obj\iPhone\Debug\device-builds\iphone9.4-14.4.2\CopyFilesToMac\Plugin.Segmented.Control.iOS.dll.mdb.ReferenceCopyLocalPaths.stamp
 C:\Users\yunkyu\Desktop\SSHBLUETOOTH\BluetoothTesting\BluetoothTesting.iOS\obj\iPhone\Debug\device-builds\iphone9.4-14.4.2\CopyFilesToMac\BluetoothTesting.iOS.exe.mdb.ReferenceCopyLocalPaths.stamp
 C:\Users\yunkyu\Desktop\SSHBLUETOOTH\BluetoothTesting\BluetoothTesting.iOS\obj\iPhone\Debug\device-builds\iphone9.4-14.4.2\CopyFilesToMac\BluetoothTesting.iOS.pdb.DebugSymbolsProjectOutputGroupOutput.stamp

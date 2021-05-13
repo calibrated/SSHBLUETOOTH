@@ -2,17 +2,6 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
-      "Plugin.BLE/2.2.0-pre1": {
-        "type": "package",
-        "compile": {
-          "lib/Xamarin.iOS10/Plugin.BLE.Abstractions.dll": {},
-          "lib/Xamarin.iOS10/Plugin.BLE.dll": {}
-        },
-        "runtime": {
-          "lib/Xamarin.iOS10/Plugin.BLE.Abstractions.dll": {},
-          "lib/Xamarin.iOS10/Plugin.BLE.dll": {}
-        }
-      },
       "Plugin.SegmentedControl.Netstandard/5.4.5": {
         "type": "package",
         "dependencies": {
@@ -208,7 +197,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Plugin.BLE": "2.2.0-pre1",
+          "Plugin.BLE": "1.0.0",
+          "Plugin.BLE.Abstractions": "1.0.0",
           "Plugin.SegmentedControl.Netstandard": "5.4.5",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012",
@@ -219,21 +209,33 @@
         },
         "runtime": {
           "bin/placeholder/BluetoothTesting.dll": {}
+        }
+      },
+      "Plugin.BLE/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Plugin.BLE.Abstractions": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Plugin.BLE.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Plugin.BLE.dll": {}
+        }
+      },
+      "Plugin.BLE.Abstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Plugin.BLE.Abstractions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Plugin.BLE.Abstractions.dll": {}
         }
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
-      "Plugin.BLE/2.2.0-pre1": {
-        "type": "package",
-        "compile": {
-          "lib/Xamarin.iOS10/Plugin.BLE.Abstractions.dll": {},
-          "lib/Xamarin.iOS10/Plugin.BLE.dll": {}
-        },
-        "runtime": {
-          "lib/Xamarin.iOS10/Plugin.BLE.Abstractions.dll": {},
-          "lib/Xamarin.iOS10/Plugin.BLE.dll": {}
-        }
-      },
       "Plugin.SegmentedControl.Netstandard/5.4.5": {
         "type": "package",
         "dependencies": {
@@ -429,7 +431,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Plugin.BLE": "2.2.0-pre1",
+          "Plugin.BLE": "1.0.0",
+          "Plugin.BLE.Abstractions": "1.0.0",
           "Plugin.SegmentedControl.Netstandard": "5.4.5",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012",
@@ -440,21 +443,33 @@
         },
         "runtime": {
           "bin/placeholder/BluetoothTesting.dll": {}
+        }
+      },
+      "Plugin.BLE/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Plugin.BLE.Abstractions": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Plugin.BLE.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Plugin.BLE.dll": {}
+        }
+      },
+      "Plugin.BLE.Abstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Plugin.BLE.Abstractions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Plugin.BLE.Abstractions.dll": {}
         }
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
-      "Plugin.BLE/2.2.0-pre1": {
-        "type": "package",
-        "compile": {
-          "lib/Xamarin.iOS10/Plugin.BLE.Abstractions.dll": {},
-          "lib/Xamarin.iOS10/Plugin.BLE.dll": {}
-        },
-        "runtime": {
-          "lib/Xamarin.iOS10/Plugin.BLE.Abstractions.dll": {},
-          "lib/Xamarin.iOS10/Plugin.BLE.dll": {}
-        }
-      },
       "Plugin.SegmentedControl.Netstandard/5.4.5": {
         "type": "package",
         "dependencies": {
@@ -650,7 +665,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Plugin.BLE": "2.2.0-pre1",
+          "Plugin.BLE": "1.0.0",
+          "Plugin.BLE.Abstractions": "1.0.0",
           "Plugin.SegmentedControl.Netstandard": "5.4.5",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012",
@@ -661,21 +677,33 @@
         },
         "runtime": {
           "bin/placeholder/BluetoothTesting.dll": {}
+        }
+      },
+      "Plugin.BLE/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Plugin.BLE.Abstractions": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Plugin.BLE.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Plugin.BLE.dll": {}
+        }
+      },
+      "Plugin.BLE.Abstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Plugin.BLE.Abstractions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Plugin.BLE.Abstractions.dll": {}
         }
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
-      "Plugin.BLE/2.2.0-pre1": {
-        "type": "package",
-        "compile": {
-          "lib/Xamarin.iOS10/Plugin.BLE.Abstractions.dll": {},
-          "lib/Xamarin.iOS10/Plugin.BLE.dll": {}
-        },
-        "runtime": {
-          "lib/Xamarin.iOS10/Plugin.BLE.Abstractions.dll": {},
-          "lib/Xamarin.iOS10/Plugin.BLE.dll": {}
-        }
-      },
       "Plugin.SegmentedControl.Netstandard/5.4.5": {
         "type": "package",
         "dependencies": {
@@ -871,7 +899,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Plugin.BLE": "2.2.0-pre1",
+          "Plugin.BLE": "1.0.0",
+          "Plugin.BLE.Abstractions": "1.0.0",
           "Plugin.SegmentedControl.Netstandard": "5.4.5",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012",
@@ -882,52 +911,34 @@
         },
         "runtime": {
           "bin/placeholder/BluetoothTesting.dll": {}
+        }
+      },
+      "Plugin.BLE/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Plugin.BLE.Abstractions": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Plugin.BLE.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Plugin.BLE.dll": {}
+        }
+      },
+      "Plugin.BLE.Abstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Plugin.BLE.Abstractions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Plugin.BLE.Abstractions.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Plugin.BLE/2.2.0-pre1": {
-      "sha512": "1p2D6Lxf1YPSayuO3R6+4PVxpP/YsQMn2LuhTHCqbf0aAaHuZhuRaCA2FYnaYA+eLSY66HjzAuG8G9CgpELrzw==",
-      "type": "package",
-      "path": "plugin.ble/2.2.0-pre1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/MonoAndroid/Plugin.BLE.Abstractions.deps.json",
-        "lib/MonoAndroid/Plugin.BLE.Abstractions.dll",
-        "lib/MonoAndroid/Plugin.BLE.Abstractions.pdb",
-        "lib/MonoAndroid/Plugin.BLE.XML",
-        "lib/MonoAndroid/Plugin.BLE.dll",
-        "lib/MonoAndroid/Plugin.BLE.dll.mdb",
-        "lib/MonoAndroid/Plugin.BLE.pdb",
-        "lib/Xamarin.iOS10/Plugin.BLE.Abstractions.deps.json",
-        "lib/Xamarin.iOS10/Plugin.BLE.Abstractions.dll",
-        "lib/Xamarin.iOS10/Plugin.BLE.Abstractions.pdb",
-        "lib/Xamarin.iOS10/Plugin.BLE.XML",
-        "lib/Xamarin.iOS10/Plugin.BLE.dll",
-        "lib/Xamarin.iOS10/Plugin.BLE.dll.mdb",
-        "lib/Xamarin.iOS10/Plugin.BLE.pdb",
-        "lib/netstandard2.0/Plugin.BLE.Abstractions.deps.json",
-        "lib/netstandard2.0/Plugin.BLE.Abstractions.dll",
-        "lib/netstandard2.0/Plugin.BLE.Abstractions.pdb",
-        "lib/netstandard2.0/Plugin.BLE.deps.json",
-        "lib/netstandard2.0/Plugin.BLE.dll",
-        "lib/netstandard2.0/Plugin.BLE.pdb",
-        "lib/uap10.0/Plugin.BLE.Abstractions.dll",
-        "lib/uap10.0/Plugin.BLE.Abstractions.pdb",
-        "lib/uap10.0/Plugin.BLE.dll",
-        "lib/uap10.0/Plugin.BLE.pdb",
-        "lib/uap10.0/Plugin.BLE.pri",
-        "lib/xamarinmac20/Plugin.BLE.Abstractions.deps.json",
-        "lib/xamarinmac20/Plugin.BLE.Abstractions.dll",
-        "lib/xamarinmac20/Plugin.BLE.Abstractions.pdb",
-        "lib/xamarinmac20/Plugin.BLE.macOS.dll",
-        "lib/xamarinmac20/Plugin.BLE.macOS.xml",
-        "plugin.ble.2.2.0-pre1.nupkg.sha512",
-        "plugin.ble.nuspec"
-      ]
-    },
     "Plugin.SegmentedControl.Netstandard/5.4.5": {
       "sha512": "68P/FNSKWa/jnQngija+9gr8zX4yuxwWw+5YOediZkBmv7cRcXcemmF74B0BKjSzbuLu1Eb/C2GfKB4NksXI2w==",
       "type": "package",
@@ -1319,12 +1330,23 @@
       "type": "project",
       "path": "../BluetoothTesting/BluetoothTesting.csproj",
       "msbuildProject": "../BluetoothTesting/BluetoothTesting.csproj"
+    },
+    "Plugin.BLE/1.0.0": {
+      "type": "project",
+      "path": "../../../xamarin-bluetooth-le-master/Source/Plugin.BLE/Plugin.BLE.csproj",
+      "msbuildProject": "../../../xamarin-bluetooth-le-master/Source/Plugin.BLE/Plugin.BLE.csproj"
+    },
+    "Plugin.BLE.Abstractions/1.0.0": {
+      "type": "project",
+      "path": "../../../xamarin-bluetooth-le-master/Source/Plugin.BLE.Abstractions/Plugin.BLE.Abstractions.csproj",
+      "msbuildProject": "../../../xamarin-bluetooth-le-master/Source/Plugin.BLE.Abstractions/Plugin.BLE.Abstractions.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "BluetoothTesting >= 1.0.0",
-      "Plugin.BLE >= 2.2.0-pre1",
+      "Plugin.BLE >= 1.0.0",
+      "Plugin.BLE.Abstractions >= 1.0.0",
       "Plugin.SegmentedControl.Netstandard >= 5.4.5",
       "Xamarin.Essentials >= 1.6.1",
       "Xamarin.Forms >= 5.0.0.2012",
@@ -1368,6 +1390,12 @@
           "projectReferences": {
             "C:\\Users\\yunkyu\\Desktop\\SSHBLUETOOTH\\BluetoothTesting\\BluetoothTesting\\BluetoothTesting.csproj": {
               "projectPath": "C:\\Users\\yunkyu\\Desktop\\SSHBLUETOOTH\\BluetoothTesting\\BluetoothTesting\\BluetoothTesting.csproj"
+            },
+            "C:\\Users\\yunkyu\\Desktop\\xamarin-bluetooth-le-master\\Source\\Plugin.BLE.Abstractions\\Plugin.BLE.Abstractions.csproj": {
+              "projectPath": "C:\\Users\\yunkyu\\Desktop\\xamarin-bluetooth-le-master\\Source\\Plugin.BLE.Abstractions\\Plugin.BLE.Abstractions.csproj"
+            },
+            "C:\\Users\\yunkyu\\Desktop\\xamarin-bluetooth-le-master\\Source\\Plugin.BLE\\Plugin.BLE.csproj": {
+              "projectPath": "C:\\Users\\yunkyu\\Desktop\\xamarin-bluetooth-le-master\\Source\\Plugin.BLE\\Plugin.BLE.csproj"
             }
           }
         }
@@ -1376,10 +1404,6 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
-          "Plugin.BLE": {
-            "target": "Package",
-            "version": "[2.2.0-pre1, )"
-          },
           "Plugin.SegmentedControl.Netstandard": {
             "target": "Package",
             "version": "[5.4.5, )"

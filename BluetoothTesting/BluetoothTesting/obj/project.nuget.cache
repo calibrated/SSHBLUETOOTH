@@ -1,12 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "SkKJyQYM6HmvJy7c4eYoxnBVFye2mdklgarV8kjtwlfGulahy2piUcNiwL34dPCjVNVduGcyC07LqTzN6ZUqwQ==",
+  "dgSpecHash": "qPC+apoXc+IIC3lhmRoCIXXee19I+pKIC8YsbBOyRFCKgIt2qk27ehNtrVLRP8b4BbzU4/IPhnN3/9EBnmDYPA==",
   "success": true,
   "projectFilePath": "C:\\Users\\yunkyu\\Desktop\\SSHBLUETOOTH\\BluetoothTesting\\BluetoothTesting\\BluetoothTesting.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\yunkyu\\.nuget\\packages\\plugin.ble\\2.2.0-pre1\\plugin.ble.2.2.0-pre1.nupkg.sha512",
     "C:\\Users\\yunkyu\\.nuget\\packages\\plugin.segmentedcontrol.netstandard\\5.4.5\\plugin.segmentedcontrol.netstandard.5.4.5.nupkg.sha512",
     "C:\\Users\\yunkyu\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\yunkyu\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.7.0\\system.reflection.emit.ilgeneration.4.7.0.nupkg.sha512",
